@@ -1,6 +1,6 @@
 # Library for debugging Reactor calls with OpenTelemetry
 
-This library helps to understand [Project Reactor](https://projectreactor.io/) call chains. Is't intended for debugging only. **Do not use it in production**: it will kill your app performance.
+This library helps to understand [Project Reactor](https://projectreactor.io/) call chains. It's intended for debugging only. **Do not use it in production**: it will kill your app performance.
 If you're trying to understand complicated call chains (and what causes what) or just learning Reactor like me - welcome in, this library is for you.
 
 Check out [OpenTelemetry project](https://opentelemetry.io/) to learn more about it.
@@ -63,4 +63,4 @@ ReactorTracer.disable();
 
 ## Contributing
 
-My plan is to move it to [OpenTelemetry Java Contrib](https://github.com/open-telemetry/opentelemetry-java-contrib) shortly. If you want to contribute issues, PRs or ideas before that - please do!
+My plan is to offer it to [OpenTelemetry Java Contrib](https://github.com/open-telemetry/opentelemetry-java-contrib) shortly. If you want to contribute issues, PRs or ideas before that - please do!
