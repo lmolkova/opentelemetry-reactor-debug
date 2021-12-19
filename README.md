@@ -1,7 +1,7 @@
 # Library for debugging Reactor calls with OpenTelemetry
 
 This library helps to understand [Project Reactor](https://projectreactor.io/) call chains. Is't intended for debugging only. **Do not use it in production**: it will kill your app performance.
-If you're trying to understand complicated call chains and what causes what or learning Reactor like me - welcome in, this library is for you.
+If you're trying to understand complicated call chains (and what causes what) or just learning Reactor like me - welcome in, this library is for you.
 
 Check out [OpenTelemetry project](https://opentelemetry.io/) to learn more about it.
 
