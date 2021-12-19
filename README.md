@@ -49,11 +49,11 @@ OpenTelemetry sdk = OpenTelemetrySdk.builder()
     .setPropagators(ContextPropagators.create(W3CTraceContextPropagator.getInstance()))
     .buildAndRegisterGlobal();
 
-// magic starts here - don't forget to remove it once you're done debugging~
+// magic starts here - don't forget to remove it once you're done debugging
 ReactorTracer.enable(sdk.getTracerProvider()); 
 // do what you want to trace
 
-// you can disable it when you're done.
+// you can disable it when done to limit the noise
 ReactorTracer.disable(); 
 ```
 
